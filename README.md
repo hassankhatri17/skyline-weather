@@ -83,9 +83,7 @@ the JS uses ES module imports, which browsers block over `file://`.)
 
 ## Deploying
 
-**Netlify Drop (fastest)** — unzip this folder, drag it onto
-[app.netlify.com/drop](https://app.netlify.com/drop), get an instant
-live URL.
+Live url: https://skyline-weather-1005.netlify.app/
 
 **GitHub Pages**
 ```bash
