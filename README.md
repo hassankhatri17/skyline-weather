@@ -4,6 +4,8 @@ A small app that fetches live weather data for any searched city, built to
 practice real API integration: loading states, error handling, and a
 search flow — not just static content.
 
+🔗 Live Site: https://skyline-weather-1005.netlify.app/
+
 ## API used
 
 **[Open-Meteo](https://open-meteo.com)** — free, no API key or sign-up
@@ -82,8 +84,6 @@ Open `http://localhost:8080`. (Double-clicking `index.html` won't work —
 the JS uses ES module imports, which browsers block over `file://`.)
 
 ## Deploying
-
-🔗 Live Site: https://skyline-weather-1005.netlify.app/
 
 **GitHub Pages**
 ```bash
