@@ -1,4 +1,4 @@
-# Skyline — live weather app (Task 2)
+# Skyline — live weather app 
 
 A small app that fetches live weather data for any searched city, built to
 practice real API integration: loading states, error handling, and a
