@@ -83,7 +83,7 @@ the JS uses ES module imports, which browsers block over `file://`.)
 
 ## Deploying
 
-Live url: https://skyline-weather-1005.netlify.app/
+🔗 Live Site: https://skyline-weather-1005.netlify.app/
 
 **GitHub Pages**
 ```bash
