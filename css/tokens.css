@@ -1,0 +1,66 @@
+/* ============================================
+   SKYLINE — Design Tokens
+   A "clear sky" palette: pale sky blue base,
+   deep dusk-blue text, amber for the sun/warmth
+   accent, storm-red reserved for error states.
+   ============================================ */
+
+:root {
+  /* --- Color --- */
+  --sky:         #EEF3F8;   /* base background, pale sky blue */
+  --sky-dim:      #E1E9F1;   /* recessed panels */
+  --dusk:        #1B2431;   /* primary text, deep dusk blue */
+  --dusk-70:     rgba(27, 36, 49, 0.7);
+  --dusk-45:     rgba(27, 36, 49, 0.45);
+  --accent:      #2C6FA6;   /* primary accent, sky blue */
+  --accent-dim:   #DCEAF5;
+  --amber:       #D98E2C;   /* warmth accent, used for sun/temperature highlight */
+  --amber-dim:    #FBEEDB;
+  --danger:      #B8412C;   /* error state, storm red */
+  --danger-dim:   #FBE9E4;
+  --line:        rgba(27, 36, 49, 0.12);
+  --line-strong: rgba(27, 36, 49, 0.24);
+  --surface:     #FFFFFF;
+
+  /* --- Type families --- */
+  --font-display: 'Sora', -apple-system, sans-serif;
+  --font-body:    'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono:    'JetBrains Mono', 'Courier New', monospace;
+
+  /* --- Type scale --- */
+  --text-xs:   0.75rem;
+  --text-sm:   0.875rem;
+  --text-base: 1rem;
+  --text-md:   1.125rem;
+  --text-lg:   clamp(1.25rem, 1.1rem + 0.5vw, 1.4rem);
+  --text-xl:   clamp(1.6rem, 1.3rem + 1.2vw, 2.1rem);
+  --text-2xl:  clamp(2rem, 1.6rem + 1.8vw, 2.75rem);
+  --text-huge: clamp(3rem, 2.4rem + 3vw, 4.5rem);
+
+  /* --- Spacing scale (base 4px) --- */
+  --sp-1: 0.25rem;
+  --sp-2: 0.5rem;
+  --sp-3: 0.75rem;
+  --sp-4: 1rem;
+  --sp-5: 1.5rem;
+  --sp-6: 2rem;
+  --sp-7: 3rem;
+  --sp-8: 4rem;
+
+  /* --- Layout --- */
+  --container-max: 1100px;
+  --container-pad: clamp(1.25rem, 4vw, 3rem);
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-pill: 999px;
+
+  /* --- Motion --- */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-fast: 160ms;
+  --dur-med: 300ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root { --dur-fast: 0ms; --dur-med: 0ms; }
+}
